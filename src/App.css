@@ -1,0 +1,49 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+.chart canvas {
+  height: 300px !important;   
+  display: inline-block !important;
+  
+}
+
+.header-wrapper {
+  width:100%;
+  text-align: center;
+}
+.main-heading
+{
+  display: inline-block;
+}
+
+h1 {
+  color: #339DFF;
+}
+
+.app-button {
+  display: inline-block;
+  margin-right: 5px;
+  background: #339DFF;
+  color: #fff;
+  text-decoration: none;
+  font-size: 10px;
+  line-height: 18px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  width: 120px;
+  text-align: center;
+}
+
+.app-button:hover {
+  background: #fff;
+  color: #339DFF;
+  box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
+}
+
+@media print {
+  .app-button {
+      display: none;
+  }
+}
