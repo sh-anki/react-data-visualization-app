@@ -4,6 +4,8 @@ This is a React App that fetches data from an API and plots that data in a Line 
 
 **Definition of Done**
 
+App Coded in 3.5 hours
+
 1.) This App satisfies the underline requirement of the Challenge. It fetches the data from a mock API and plots two graph with the fetched data. First graph shows the actual data and second graph shows the areas of interest.
 2.) User can hover over the graph intersections to see the data in that particual point.
 3.) User has been given feature to fetch the fresh data on click of "Reload Data" button.
